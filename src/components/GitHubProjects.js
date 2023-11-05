@@ -1,18 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/GitHubProjects.css'; // Importing the CSS file
 
 function GitHubProjects({ projects }) {
   return (
     <section>
-      <h1>Projects</h1>
-      <div>
+      <div className="section-header">
+        <h1>Projects</h1>
+        <p className="section-description">
+          Below you can find a selection of my GitHub projects. Click on any project to see more details on GitHub.
+        </p>
+      </div>
+      <div className="projects-grid">
         {projects.map((project) => (
-          <div key={project.id}>
+          <div className="project-card" key={project.id}>
             <a href={project.url} target="_blank" rel="noopener noreferrer">
+              <h2 className="project-title">{project.title}</h2>
               <img src={project.thumbnail} alt={project.title} />
-              <h2>{project.title}</h2>
             </a>
-            <p>{project.description}</p>
+            <div className="project-description">
+              <p>{project.description}</p>
+            </div>
           </div>
         ))}
       </div>

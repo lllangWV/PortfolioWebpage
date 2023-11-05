@@ -1,0 +1,18 @@
+/my-portfolio
+  /node_modules
+  /public
+    index.html
+    favicon.ico
+  /src
+    /components
+      App.js
+      PersonalStatement.js
+      Publications.js
+      GitHubProjects.js
+    /assets
+      /images
+    /styles
+      GlobalStyles.js
+    index.js
+  package.json
+  README.md

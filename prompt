@@ -1,0 +1,36 @@
+Generate a single-page React application for a personal portfolio webpage with the following specifications:
+
+- **Layout**: A single-page application with all content presented on the root route ("/").
+
+- **Sections**:
+  1. **Personal Statement Section**:
+     - Include a header titled "About Me".
+     - Below the header, place a paragraph element for the personal statement. Add placeholder text which I can replace with my own description of skills, experience, and professional interests.
+
+  2. **Publications Section**:
+     - Add a header titled "My Publications".
+     - Under the header, create a list of placeholder titles for my papers. Each title should be a clickable link that will open the respective paper in a new tab. The links should have placeholders for URLs which I will fill in.
+
+  3. **GitHub Projects Section**:
+     - Include a header titled "Projects".
+     - Display my GitHub projects in a grid or list. Each project should have:
+       - A clickable title that links to the GitHub repository (use placeholder links).
+       - A short placeholder description.
+       - A placeholder for a thumbnail image of the project.
+     - Ensure that each project link opens in a new tab when clicked.
+
+- **Styling**:
+  - Use a modern, clean, and professional-looking design with a coherent color scheme and typography.
+  - Ensure the webpage is responsive, adapting smoothly to different screen sizes, from mobile devices to large desktop displays.
+
+- **Functionality**:
+  - Use modern React functional components with hooks for state management and lifecycle events where necessary.
+  - Employ a structured and maintainable directory layout for components and assets.
+
+- **Code Quality**:
+  - Write clean, readable, and well-commented code.
+  - Provide propTypes for all components and ensure the code follows best practices.
+
+- **Documentation**:
+  - Include a README file with instructions on how to run the application locally.
+  - Add comments in the code to indicate where I can update the placeholders with my actual content.

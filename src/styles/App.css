@@ -1,0 +1,16 @@
+/* App.css */
+
+.app-container {
+    text-align: center; /* Center aligns the children */
+    /* other styles */
+  }
+  
+  .main-header h1 {
+    font-size: 2.5rem; /* Large font size for the main title */
+    color: var(--primary-color); /* Use the primary color defined in colors.css */
+    margin: 20px 0; /* Add some vertical space around the title */
+    /* other styles */
+  }
+  
+  /* other styles */
+  

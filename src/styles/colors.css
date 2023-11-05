@@ -1,0 +1,65 @@
+/* colors.css */
+
+:root {
+    --primary-color: #5588a3; /* A softer shade of blue for the primary color */
+    --secondary-color-silver: #adbac7; /* A muted silver that stands out on dark backgrounds */
+    --secondary-color-gold: #f9c513; /* A bright gold for highlights and accents */
+    --background-color: #1c1c1e; /* Very dark gray, almost black */
+    --text-color: #f8f8f8; /* Off-white for the main text for better readability on dark background */
+    --text-color-subtle: #adbac7; /* Muted text for less important elements */
+    --link-color: #81a1c1; /* Soft blue for links to stand out on the dark background */
+    --border-color: #2d333b; /* Dark border color for elements */
+  }
+  
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Open Sans', sans-serif; /* Example font */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem; /* Adjust space below headings */
+  }
+  
+  a {
+    color: var(--link-color);
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Adds underline on hover for links */
+  }
+  
+  .button-primary {
+    background-color: var(--secondary-color-gold);
+    color: var(--background-color);
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .button-primary:hover {
+    background-color: lighten(var(--secondary-color-gold), 10%);
+    border-color: var(--secondary-color-silver);
+  }
+  
+  .button-secondary {
+    background-color: transparent;
+    color: var(--secondary-color-silver);
+    padding: 10px 20px;
+    border: 1px solid var(--secondary-color-silver);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .button-secondary:hover {
+    color: var(--background-color);
+    border-color: var(--primary-color);
+  }
+  
+  /* Additional styles for other elements as needed */
+  

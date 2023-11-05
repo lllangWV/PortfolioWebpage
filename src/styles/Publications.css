@@ -50,26 +50,30 @@
   }
   
   .publication-title {
+    text-align: center;
     font-size: 1.2rem; /* Adjust font size as needed */
-    margin: 0;
+    margin: 0.5rem 0;
+    z-index: 10;
   }
   
   .publication-abstract {
     display: none;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0;
     padding: 1rem;
-    overflow: auto;
-    transition: all 0.3s ease;
+    box-sizing: border-box;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    transition: all 0.3s ease;
+    max-height: 0; /* Initially, max-height is 0 to hide the description */
+    overflow: hidden;
   }
   
   .publication-card:hover .publication-abstract {
     display: block;
+    max-height: 200px; /* On hover, the max-height is increased to reveal the description */
   }
   

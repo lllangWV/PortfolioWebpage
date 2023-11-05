@@ -23,8 +23,10 @@ function App() {
   const placeholderPublications = [
     {
       id: 'publication-1',
-      title: 'Title of First Publication',
-      url: 'http://example.com/your-publication',
+      title: 'MechElastic: A Python library for analysis of mechanical and elastic properties of bulk and 2D materials',
+      url: 'https://www.sciencedirect.com/science/article/abs/pii/S0010465521001806',
+      abstract: "This is the abstact title of the first publication",
+      thumbnail: 'images/mechelastic.png',
     },
     // Add more publication objects with unique 'id' values here
   ];

@@ -6,7 +6,8 @@ import GitHubProjects from './GitHubProjects';
 function App() {
 
   // Placeholder data for PersonalStatement
-  const personalStatement = "I'm a passionate software developer with expertise in React and Node.js... (your personal statement here)";
+  const personalStatement =  "I'm a passionate software developer with expertise in React and Node.js... (your personal statement here)"
+  const imageSrc= 'images/odie.png'
 
 
   const placeholderProjects = [
@@ -33,7 +34,7 @@ function App() {
 
   return (
     <div>
-      <PersonalStatement statement={personalStatement} />
+      <PersonalStatement statement={personalStatement} imageSrc={imageSrc} />
       <Publications publications={placeholderPublications}  />
       <GitHubProjects projects={placeholderProjects} />
     </div>

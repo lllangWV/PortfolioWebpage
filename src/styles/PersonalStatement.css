@@ -1,0 +1,37 @@
+/* PersonalStatement.css */
+
+.personal-statement {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Centers items horizontally */
+    padding: 2rem; /* Add some padding around the section */
+  }
+  
+  .personal-image-container {
+    flex: 1; /* Takes up half of the container */
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+  }
+  
+  .personal-image {
+    max-width: 100%; /* Ensure the image is responsive and doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: makes the image round */
+  }
+  
+  .personal-text-container {
+    flex: 1; /* Takes up the other half of the container */
+    padding: 1rem; /* Add some padding inside the text container */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .personal-title {
+    text-align: center; /* Center the title */
+    margin-bottom: 1rem; /* Add some space below the title */
+  }
+  
+  .personal-description {
+    /* Style for your personal statement text */
+  }
+  
